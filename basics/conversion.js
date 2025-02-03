@@ -19,14 +19,14 @@ let Cnumber = Number(number)
 //In boolean conversion out-put   
     //0 => false, 1 => true
     //"" => false, "mahaveer" => true
-    //null => false, undefined => fase
+    //null => false, undefined => false
     //[] => true, {} => true
 
     let str = {name:'ram'}
     let strVal = String(str)
     
-    console.log(strVal)
-    console.log(typeof strVal)
+    //console.log(strVal)
+    //console.log(typeof strVal)
 
 //In string conversion out-put
 //33 => 33
@@ -34,3 +34,40 @@ let Cnumber = Number(number)
 //null => null, undefined => undefined
 //[] => "", [1, 2] => 1, 2
 //{} => [object object], {name:'ram'} => [object, object]
+
+
+/**************operrations**************/
+
+let value = 3
+let negValue = -value
+//console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(23%2)
+// console.log(8**200)
+
+// console.log('1' + 2);
+// console.log(2 + "5");
+// console.log("1" + 5 + 6);
+// console.log(5 + 5 + "1");
+
+//console.log((2+5) * 3 % 5) // 1
+
+//console.log(+true); // 1
+//console.log(-true); // -1
+//console.log(+""); // 0
+
+let p = 10
+let q = --p
+
+console.log(p, q);
+
+
+
+
+
+
+
